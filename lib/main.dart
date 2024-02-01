@@ -73,10 +73,10 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('password: $passwordValue',
                 style: const TextStyle(fontSize: 24)),
             const SizedBox(height: 30),
-            Text('First Launch $isFirstLaunch',
+            Text('First Launch: $isFirstLaunch',
                 style: const TextStyle(fontSize: 24)),
-            const SizedBox(height: 10),
-            TextButton(
+            const SizedBox(height: 20),
+            ElevatedButton(
               onPressed: _changeIsFirstLaunchValue,
               child: const Text('Change First Launch',
                   style: TextStyle(fontSize: 24)),
